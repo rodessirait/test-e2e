@@ -8,8 +8,8 @@ fixture `Shopee Test - Create Gist`
 test('Create a public Gist', async t => {
     await t
         .maximizeWindow()
-        .typeText(create.username, 'rodessirait01@gmail.com')
-        .typeText(create.password, 'notResponding17.')
+        .typeText(create.username, '****')
+        .typeText(create.password, '****')
         .click(create.loginBtn)
         .click(create.addNew)
         .wait(2000)

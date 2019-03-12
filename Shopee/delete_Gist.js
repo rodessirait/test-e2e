@@ -8,8 +8,8 @@ fixture `Shopee Test - Delete Gist`
 test('Delete a public Gist', async t => {
     await t
         .maximizeWindow()
-        .typeText(deleted.username, 'rodessirait01@gmail.com')
-        .typeText(deleted.password, 'notResponding17.')
+        .typeText(deleted.username, '****')
+        .typeText(deleted.password, '****')
         .click(deleted.loginBtn)
         .click(deleted.profileIcon)
         .wait(1000)

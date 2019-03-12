@@ -8,8 +8,8 @@ fixture `Shopee Test - Edit Gist`
 test('Edit a public Gist', async t => {
     await t
         .maximizeWindow()
-        .typeText(edit.username, 'rodessirait01@gmail.com')
-        .typeText(edit.password, 'notResponding17.')
+        .typeText(edit.username, '****')
+        .typeText(edit.password, '****')
         .click(edit.loginBtn)
         .click(edit.profileIcon)
         .wait(1000)
