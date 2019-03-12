@@ -6,4 +6,4 @@ TestCafe
 Browser
 ## How to run go to /tests and then type:
 
-testcafe <browser name> <file name.js>
+testcafe browser_name file_name.js
